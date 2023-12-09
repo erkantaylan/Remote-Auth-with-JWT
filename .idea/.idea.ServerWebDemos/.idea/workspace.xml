@@ -24,10 +24,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58d8effb-b235-4c29-b8b0-0a347cbf2fb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RemoteLoginWithJwt/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RemoteLoginWithJwt/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RemoteLoginWithJwt/.idea/efCoreCommonOptions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RemoteLoginWithJwt/.idea/efCoreDialogsState.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RemoteLoginWithJwt/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RemoteLoginWithJwt/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RemoteLoginWithJwt/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RemoteLoginWithJwt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteLoginWithJwt.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerWebDemos/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerWebDemos/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerWebDemos/.idea/efCoreCommonOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerWebDemos/.idea/efCoreDialogsState.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerWebDemos/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerWebDemos/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerWebDemos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerWebDemos/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerWebDemos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ServerWebDemos/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Identity.Api/Jwt/JwtAuthenticationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Identity.Api/Jwt/JwtAuthenticationManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Movies.Api.Test/GlobalUsings.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Movies.Api.Test/Movies.Api.Test.csproj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Movies.Api.Test/UnitTest1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.Api/Identity/IdentityData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.Api/Identity/IdentityData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.Api/Identity/RequiresClaimAttirubute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.Api/Identity/RequiresClaimAttirubute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.Api/JwtSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.Api/JwtSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.Api/Movies.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.Api/Weather.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.Api/MoviesProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.Api/MoviesProgram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.Api/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.Api/Swagger/ConfigureSwaggerOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.Api/Swagger/ConfigureSwaggerOptions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.Api/Weather/WeatherController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.Api/Weather/WeatherController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.Api/Weather/WeatherForecast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.Api/Weather/WeatherForecast.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.Api/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.Api/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MvcWithAuth/Areas/Identity/Pages/_ViewStart.cshtml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MvcWithAuth/Controllers/HomeController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MvcWithAuth/Data/ApplicationDbContext.cs" beforeDir="false" />
@@ -117,7 +147,7 @@
       <change beforePath="$PROJECT_DIR$/NetgsmWebHook/Properties/launchSettings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NetgsmWebHook/appsettings.Development.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NetgsmWebHook/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerWebDemos.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ServerWebDemos.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerWebDemos.sln" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerWebDemos.sln.DotSettings.user" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,29 +179,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.DuendeIdentityServerwithIn-MemoryStoresandTestUsers1: SelfHost.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Identity.Api: http.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Launch Settings Profile.Movies.Api: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.MvcWithAuth: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.NetgsmWebHook: http.executor&quot;: &quot;Run&quot;,
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;HTTP Request.All in Movies.Api.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.DuendeIdentityServerwithIn-MemoryStoresandTestUsers1: SelfHost.executor": "Run",
+    ".NET Launch Settings Profile.Identity.Api: http.executor": "Debug",
+    ".NET Launch Settings Profile.Movies.Api: http.executor": "Run",
+    ".NET Launch Settings Profile.MvcWithAuth: http.executor": "Run",
+    ".NET Launch Settings Profile.NetgsmWebHook: http.executor": "Run",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "HTTP Request.All in Movies.Api.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "advanced.settings"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Barbie\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Barbie\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Barbie\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Barbie\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Barbie\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\Barbie\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Identity.Api: http">
     <configuration name="ConsoleApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -458,7 +488,7 @@
       <workItem from="1701858716809" duration="4520000" />
       <workItem from="1701956006240" duration="802000" />
       <workItem from="1702023568629" duration="16742000" />
-      <workItem from="1702108483634" duration="55000" />
+      <workItem from="1702108483634" duration="894000" />
     </task>
     <servers />
   </component>
