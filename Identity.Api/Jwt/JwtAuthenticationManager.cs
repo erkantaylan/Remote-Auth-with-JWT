@@ -34,8 +34,8 @@ public class JwtAuthenticationManager
             {
                 new(JwtRegisteredClaimNames.Jti, userId.ToString()),
                 new(JwtRegisteredClaimNames.Email, username),
-                new(JwtRegisteredClaimNames.Sub, username),
-                new("roles", roles)
+                // new(JwtRegisteredClaimNames.Sub, username),
+                // new("roles", roles)
             });
         var tokenDescriptor = new SecurityTokenDescriptor
         {

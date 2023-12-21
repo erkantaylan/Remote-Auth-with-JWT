@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather.Api", "Weather.Api\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Api", "Identity.Api\Identity.Api.csproj", "{D28DEA72-6A67-41C6-AB7C-72A2E6CAD018}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenId Connect and OAuth2.0 server in AspNetCore using OpenIdDict", "OpenId Connect and OAuth2.0 server in AspNetCore using OpenIdDict", "{6A00C75B-D913-4CD9-A47D-FAD73A0C3702}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
