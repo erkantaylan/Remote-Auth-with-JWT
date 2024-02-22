@@ -13,9 +13,8 @@ internal static class Program
             "http://localhost",
             "VeryUnsecureWayToKeepTheKeyButItShouldBeLongEnoughToPassNow");
 
-        const string key = "VeryUnsecureWayToKeepTheKeyButItShouldBeLongEnoughToPassNow";
         WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
-        Startup.ConfigureServices(builder.Services, jwtSettings, key);
+        Startup.ConfigureServices(builder.Services, jwtSettings);
         WebApplication app = builder.Build();
         BuilderApplication(app);
         app.Run();

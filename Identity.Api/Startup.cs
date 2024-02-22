@@ -9,7 +9,7 @@ namespace Identity.Api;
 
 internal static class Startup
 {
-    public static void ConfigureServices(IServiceCollection services, JwtSettings jwtSettings, string key)
+    public static void ConfigureServices(IServiceCollection services, JwtSettings jwtSettings)
     {
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
@@ -29,7 +29,7 @@ internal static class Startup
                         o.TokenValidationParameters = new TokenValidationParameters
                         {
                             ValidateIssuerSigningKey = true,
-                            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),
+                            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key)),
                             ValidateIssuer = true,
                             ValidateAudience = true
                         };

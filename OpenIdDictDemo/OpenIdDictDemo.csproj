@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>e34ea8ad-6902-4a4e-b1ce-a39e6a73319d</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0" />
+        <PackageReference Include="OpenIddict.Core" Version="5.0.0"/>
+        <PackageReference Include="OpenIddict.EntityFrameworkCore" Version="5.0.0" />
+        <PackageReference Include="OpenIddict.Server" Version="5.0.0"/>
+        <PackageReference Include="OpenIddict.Server.AspNetCore" Version="5.0.0"/>
+        <PackageReference Include="OpenIddict.Validation" Version="5.0.0" />
+        <PackageReference Include="System.Linq.Async" Version="6.0.1"/>
+        
+    </ItemGroup>
+
+
+</Project>

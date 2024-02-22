@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Api", "Identity.Ap
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenId Connect and OAuth2.0 server in AspNetCore using OpenIdDict", "OpenId Connect and OAuth2.0 server in AspNetCore using OpenIdDict", "{6A00C75B-D913-4CD9-A47D-FAD73A0C3702}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenIdDictDemo", "OpenIdDictDemo\OpenIdDictDemo.csproj", "{908B9C84-B4A8-4EFF-9035-9A9770F7364B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +18,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2B0E678E-8BFE-4FCD-811D-72A148E51D1E} = {F0BD21AA-13CF-498D-B76D-08DB2B28FD9D}
 		{D28DEA72-6A67-41C6-AB7C-72A2E6CAD018} = {F0BD21AA-13CF-498D-B76D-08DB2B28FD9D}
+		{908B9C84-B4A8-4EFF-9035-9A9770F7364B} = {6A00C75B-D913-4CD9-A47D-FAD73A0C3702}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2B0E678E-8BFE-4FCD-811D-72A148E51D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,5 +29,9 @@ Global
 		{D28DEA72-6A67-41C6-AB7C-72A2E6CAD018}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D28DEA72-6A67-41C6-AB7C-72A2E6CAD018}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D28DEA72-6A67-41C6-AB7C-72A2E6CAD018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908B9C84-B4A8-4EFF-9035-9A9770F7364B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908B9C84-B4A8-4EFF-9035-9A9770F7364B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908B9C84-B4A8-4EFF-9035-9A9770F7364B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908B9C84-B4A8-4EFF-9035-9A9770F7364B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
